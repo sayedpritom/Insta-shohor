@@ -18,6 +18,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
         integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -57,26 +60,53 @@
             <h1>Reported posts</h1>
         </div>
     </main>
-    <section>
-        <div id="how-js-works">
-            <h3>How Javascript Works:</h3>
-            <p>
-                Javascript is a client-side programming language. That means it runs on the browsers like chrome,
-                firefox, etc. To run in browsers javascript uses certain engines. E.g. V8 for chrome, spider monkey for
-                firefox, Chakra for Microsoft Edge & the list goes on.
-            </p>
+    <section class="container my-5">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <div class="card card-body">
+                    <h3>How Does Javascript Work?</h3>
+                    <hr>
+                    <p>
+                        Javascript is a client-side programming language. That means it runs on the browsers like
+                        chrome,
+                        firefox, etc. To run in browsers javascript uses certain engines. For example, V8 for chrome, spider
+                        monkey for
+                        firefox, Chakra for Microsoft Edge & the list goes on.
+                    </p>
 
-            <p>
-                Javascript is an interpreted language. That means it can be executed directly without the source code
-                being compiled in the first place.
-            </p>
-            <p>
-                <b>Step 1:</b> In the first place, a parser receives the code & checks line by line if there is any syntactical
-                error. If no error is found then goes to the next step. <br>
-                <b>Step 2:</b> In phase two, an Abstract Syntex Tree is created. In short, it's called AST. <br>
-                <b>Step 3:</b> In phase three, the Abstract Syntax Tree is converted into machine code. <br>
-                <b>Step 4:</b> Finally the machine code is ready & executed by the main computer. <br>
-            </p>
+                    <p>
+                        Javascript is an interpreted language. Which means it can be executed directly without the
+                        source code
+                        being compiled in the first place.
+                    </p>
+                    <p>
+                        <b>Step 1:</b> In the first place, a parser receives the code & checks line by line if there
+                        is
+                        any
+                        syntactical
+                        error. If no error is found then goes to the next step. <br><br>
+                        <b>Step 2:</b> In phase two, an Abstract Syntex Tree is created. In short, it's called AST.
+                        <br>
+                        <b>Step 3:</b> In phase three, the Abstract Syntax Tree is converted into machine code. <br><br>
+                        <b>Step 4:</b> Finally the machine code is ready & executed by the main computer. <br><br>
+                    </p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="card card-body">
+                    <h3>Difference Between Local Storage & Session Storage</h3>
+                    <hr>
+                    <p>Local storage and session storage are almost identical except for one thing. That is, data
+                        stored in
+                        session storage will be deleted after the window is closed & only persists for the duration
+                        of the
+                        browser session. But the data will not be cleaned if the page is reloaded. On the other
+                        hand, local
+                        storage saves the data for later usage & the data is not cleaned even after the browser tab
+                        is closed.
+                    </p>
+                </div>
+            </div>
         </div>
     </section>
     <footer></footer>
