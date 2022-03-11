@@ -1,0 +1,17 @@
+enable like(heart)
+show user profile pic in right place
+if less than 30 words, show full para
+commenter name, comment 
+show reported post onclick = eye, 
+stop repeating liked posts
+
+bonus:
+6 commits(each after each bug fix)
+add a section tag above footer, 2question, 2answer 
+how does js work
+what does js event loop do
+difference between local storage, session storage
+min 5 lines, max 10 lines
+
+
+
